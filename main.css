@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image:     linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+        url("https://images.newschoolers.com/images/17/00/76/81/75/768175_926w_640h.jpeg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.input-container {
+    display: flex;
+    
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+}
+
+.pass-container {
+    margin-bottom: 10px;
+}
+
+#pass-button {
+    width: 274px;
+}
+
+#resort-list {
+    width: 274px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+label {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+#resort-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

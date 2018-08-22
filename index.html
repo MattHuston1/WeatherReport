@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Resort</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="">
+        <nav class="nav-container">
+            <a href="index.html">Go to Brochure Page</a>
+        </nav>
+        <div class="header">
+            <h1>Weather App</h1>
+            <div class="row">
+                <div class="pass-container">
+
+                    <div class="input-container">
+                        <div class="end">
+                            <!-- <label for="">Resort</label> -->
+                            <input class="auto" type="text" id="dest-autocomplete">
+                        </div>
+                    </div>
+                </div>
+                <ul id="resort-info"></ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div id="map"></div>
+        <div id="infowindow-content">
+            <img src="" width="16" height="16" alt="" id="place-icon">
+            <span id="place-name" class="title"></span>
+            <br>
+            <span id="place-address"></span>
+        </div>
+    </main>
+    <footer>
+        <p class="footer">&copy All Rights Reserved - Huston</p>
+    </footer>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxaq2W71CRA-04wjLQMIQpSdCG6unswpQ&libraries=places&callback=initMap">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
